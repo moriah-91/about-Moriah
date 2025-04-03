@@ -1,119 +1,22 @@
-/* element selector */
-li {
-    background-color: rgb(234, 226, 183);
-    font-size: 20px;
-    padding: 5px;
+body {
+    background-color: peachpuff;
+    color: white;
+    font-size: 21px; 
 }
 
-ol {
-    background-color: rgb(234, 226, 183);
-    margin: 10px;
-    padding: 10px;
-    list-style-position: inside;
-}
-
-/* ID selector */
-#css-tips-heading {
-    color: rgb(0, 48, 73);
-}
-
-/* Class Selector */
-.background-blue {
-    background-color: rgb(0, 48, 73);
-}
-
-
-/* an * is the symbol to select everything */
-* {
-    color: rgb(0, 48, 73);
-}
-
-
-/* there are many types of units of measurements */
-/* pixels are the most common */
-h2 {
-    font-size: 1rem;
-}
-
-header {
-    text-align: center;
-    padding: 5px;
-    border: 4px solid black;
-    margin: 20px;
-}
-
-main {
-    /* inline is the sides */
-    margin-inline: 15%;
-}
-
-nav>ul {
-    padding-left: 0px;
-    text-align: center;
-}
-
-nav>ul>li {
-    margin-inline: 10px;
-    padding-inline: 10px;
-    padding-block: 6px;
-    border-radius: 5px;
-    display: inline;
-}
-
-nav>ul>li:hover {
-    background-color: rgb(252, 191, 73);
-}
-
-a {
-    text-decoration: none;
-}
-
-
-
-table {
-    width: 100%;
-    border: 1px solid rgb(0, 48, 73);
-    border-collapse: separate;
-    border-spacing: 0px;
-}
-
-/* you can select multiple things by using commas */
-th,
-td {
-    /* border: 1px solid rgb(0, 48, 73); */
-    padding-inline: 6px;
-    padding-block: 12px;
-}
-
-
-tr:nth-child(even) {
-    background-color: rgb(247, 127, 0);
-}
-
-tr:hover {
-    background-color: rgb(234, 226, 183);
-    cursor: default;
-}
-
-th {
-    background-color: rgb(247, 127, 0);
-}
-
-tr {
-    background-color: rgb(252, 191, 73);
-}
-
-
-h2 {
-    font-size: 24px;
+h1 {
+    font-size: 70px;
+    color: orange; 
 }
 
 p {
-    background-color: rgb(234, 226, 183);
-    padding: 20px;
+    color: mediumslateblue;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
+/* the CSS box model */
+
+.box {
+    background: yellow;
+    width: 300px;
 }
+
